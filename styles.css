@@ -1,0 +1,32 @@
+.talk {
+  position: relative;
+  /* width: 5rem; */
+  height: 5rem;
+  padding: 2rem 3.5rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  padding: 0.625rem;
+  border-radius: 50%;
+  color: black;
+  font-size: 2rem;
+  animation: glow 1s infinite;
+}
+
+@keyframes glow {
+  0% {
+    color: cornsilk;
+  }
+  50% {
+    color: rgba(220, 20, 60, 0.7);
+  }
+  100% {
+    color: crimson;
+    /* width: 2.625rem;
+    height: 2.625rem; */
+  }
+}
