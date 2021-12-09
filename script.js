@@ -28,9 +28,8 @@ recognition.onresult = (event) => {
 
   const transcript = event.results[current][0].transcript;
 
-  content.textContent = "hello ";
+  content.textContent = "";
   content.textContent += transcript;
-  console.log(transcript);
 
   readOutLoud(transcript);
 };
