@@ -4,7 +4,7 @@ const replies = document.querySelector(".reply");
 
 // replies
 const greetings = [
-  "YES FAITH, I'm fine. How about you.",
+  "Hello there, I'm fine. How about you.",
   // "I think I'm fine but i'm not sure",
   // "I'm doing quite fine. What about you?",
 ];
